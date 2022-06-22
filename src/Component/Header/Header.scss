@@ -1,0 +1,32 @@
+/* End Header */
+
+header {
+  position: sticky;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 4px 0;
+  background-color: #000;
+  color: #fff !important;
+  z-index: 222;
+  ul {
+    li.nav-item {
+      a.nav-link {
+        color: white;
+        &:hover {
+          color: var(--main-color) !important;
+        }
+      }
+      .active {
+        color: var(--main-color) !important;
+      }
+    }
+  }
+}
+
+// header ul li.nav-item a.nav-link:hover,
+// header ul li.nav-item a.nav-link.active {
+//   color: var(--main-color) !important;
+// }
+/* Start Style About */

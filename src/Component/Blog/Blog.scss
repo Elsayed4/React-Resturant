@@ -1,0 +1,58 @@
+.Blog .Blog_header {
+  padding-block: 80px;
+  background-color: #f9f9ff;
+}
+
+.BlogImgCont {
+  overflow: hidden;
+}
+
+.Blog .card {
+  border-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+.Blog .card-body {
+  padding: 0;
+  margin: 0;
+}
+
+.Blog .card-text {
+  margin-bottom: 0.6rem;
+}
+
+.Blog small.Date {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 20px;
+  display: inline-block;
+}
+
+.Blog .card-title a {
+  color: #000;
+}
+
+.BlogImgCont {
+  overflow: hidden;
+}
+
+.BlogImgCont img {
+  transition: transform 0.5s;
+}
+
+.Blog .card:hover .card-title a {
+  color: var(--main-color);
+}
+
+.Blog .card:hover img {
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.Blog .Blog_social_container {
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+/* End Style Blog */

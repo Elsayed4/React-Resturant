@@ -1,0 +1,47 @@
+/* Start Style Footer */
+footer {
+  background-color: #222;
+  padding-block: 80px;
+}
+
+footer .container h4 {
+  color: #fff;
+  margin-block-end: 30px;
+}
+
+footer .container p {
+  color: var(--text-color);
+}
+
+footer .container ul.Footer_Soical_icons {
+  display: inline-block;
+}
+
+footer .container ul.Footer_Soical_icons li {
+  display: inline-block;
+  background-color: #000;
+  margin-inline-end: 5px;
+  padding: 10px 15px;
+}
+
+footer .container ul.Footer_Soical_icons li a {
+  color: #fff;
+}
+
+footer .container ul.Footer_Soical_icons li a i {
+  font-size: 14px;
+}
+
+footer div span.copyright_text {
+  color: var(--main-color);
+}
+
+footer ul.Footer_numbers li {
+  color: var(--main-color);
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* End Style Footer */

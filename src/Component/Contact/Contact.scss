@@ -1,0 +1,50 @@
+/* Start Style contact */
+.contact {
+  margin-block: 120px;
+}
+
+.contact input {
+  outline: none;
+}
+
+.contact textarea:focus,
+.contact textarea.form-control:focus,
+.contact input.form-control:focus,
+.contact input[type="text"]:focus,
+.contact input[type="email"]:focus,
+.contact [type="text"].form-control:focus,
+.contact [type="password"].form-control:focus,
+.contact [type="email"].form-control:focus,
+.contact [type="tel"].form-control:focus {
+  border: 2px solid #000;
+}
+
+.contact textarea,
+.contact input[type="text"],
+.contact input[type="email"] {
+  padding-block: 12px;
+}
+
+.contact button {
+  background-color: var(--main-color);
+  border-radius: 25px;
+  color: #fff;
+  border-color: transparent;
+  padding: 10px 30px;
+  text-transform: uppercase;
+}
+.contact button:hover {
+  background-color: var(--main-color);
+  border-color: transparent;
+}
+
+.contact button i.fa-arrow-right {
+  font-size: 14px;
+  margin-inline-start: 10px;
+}
+
+.contact button:hover i.fa-arrow-right {
+  margin-inline-start: 15px;
+}
+
+/* End Style Contact */

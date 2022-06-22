@@ -1,0 +1,67 @@
+/* Start Style SHEFS */
+section.SHEFS {
+  background-color: #f9f9ff;
+}
+
+section.SHEFS .SHEFS_header {
+  padding-block: 80px;
+}
+
+section.SHEFS .SHEFS_header p {
+  color: var(--);
+}
+
+section.SHEFS .card {
+  border-color: transparent;
+}
+
+section.SHEFS .card .card-text {
+  color: var(--text-color);
+}
+
+section.SHEFS .card .card_img_container {
+  position: relative;
+  height: 300px;
+}
+
+section.SHEFS .card .card_img_container img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+section.SHEFS .card .card_img_container .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: transparent;
+  opacity: 0;
+  transition: background-color 0.5s, opacity 0.5s;
+}
+
+section.SHEFS .card .card_img_container .overlay ul {
+  margin: 0 !important;
+}
+
+section.SHEFS .card .card_img_container .overlay ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+section.SHEFS .card .card_img_container ul li i {
+  color: #fff;
+}
+section.SHEFS .card .card_img_container:hover .overlay {
+  opacity: 1;
+  background-color: rgba(244, 47, 44, 0.8);
+}
+/* End  Style SHEFS */

@@ -1,0 +1,38 @@
+/* Start Style TopRated */
+section.TopRated {
+  margin-block: var(--marginSection);
+}
+
+section.TopRated .card {
+  border-color: transparent;
+}
+
+section.TopRated .card-body {
+  padding-inline: 0 !important;
+}
+
+section.TopRated .card-body .card-text {
+  color: #777;
+}
+section.TopRated .card-body a {
+  color: #000;
+  transition: color 0.5s;
+}
+
+section.TopRated .card:hover a {
+  color: var(--main-color);
+}
+.img-container {
+  overflow: hidden;
+}
+
+section.TopRated .card img {
+  overflow: hidden;
+  transition: transform 0.5s;
+}
+
+section.TopRated .card:hover img {
+  transform: rotate(5deg) scale(1.2);
+}
+
+/* End Style TopRated */

@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './App.scss';
+import Header from './Component/Header/Header.jsx'
+import About from './Component/About/About.jsx';
+import TopRated from './Component/TopRated/TopRated.jsx';
+import Secvideo from './Component/Secvideo/Secvideo.jsx';
+import Features from './Component/Features/Features.jsx';
+import SHEFS from './Component/Shefs/Shefs.jsx';
+import Blog from './Component/Blog/Blog.jsx';
+import Contact from './Component/Contact/Contact.jsx';
+import Footer from './Component/Footer/Footer.jsx';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+   <Header />
+   <About />
+   <TopRated />
+   <Secvideo />
+   <Features />
+   <SHEFS />
+   <Blog />
+   <Contact />
+   <Footer />
+    </>
   );
 }
 
